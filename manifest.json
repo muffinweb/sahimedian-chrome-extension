@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "Sahimedian",
+    "version": "1.0",
+    "description": "Sahibinden.com medyan fiyat analizi",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.sahibinden.com/satilik*",
+                "https://www.sahibinden.com/kiralik*",
+                "https://www.sahibinden.com/satilik-arsa*",
+                "https://www.sahibinden.com/kiralik-arsa*"
+            ],
+            "js": [
+                "sweetalert.js",
+                "html2canvas.js",
+                "content.js"
+            ]
+        }
+    ]
+}
