@@ -39,27 +39,32 @@ Piyasadaki veri gürültüsünü (aşırı yüksek veya aşırı düşük fiyatl
 
 ## 📦 Kurulum ve Kullanım
 
-### Yöntem 1: Developer Console (Hızlı Kullanım)
+### 🧩 Chrome Uzantısı Olarak Manuel Kurulum (Developer Mode)
 
-1. Sahibinden.com üzerinde herhangi bir gayrimenkul arama sonuç sayfasına gidin (örn: _İzmir Konak Satılık Daire_).
-2. Klavyenizden `F12` veya `Ctrl + Shift + I` (Mac'te `Cmd + Option + I`) basarak **Developer Tools** ekranını açın.
-3. **Console** sekmesine gelin.
-4. `script.js` dosyasındaki kodların tamamını yapıştırıp `Enter` tuşuna basın.
-5. Sayfanın sağ üst köşesinde beliren **"📊 Tam Piyasa Analizi Yap"** butonuna tıklayın.
+Bu projeyi Chrome Web Mağazası'na ihtiyaç duymadan tarayıcınıza manuel olarak kolayca yükleyebilirsiniz:
 
-### Yöntem 2: Bookmarklet (Yer İmleri Butonu)
+1. **Projeyi İndirin:**
+   - GitHub deposundaki yeşil **`Code`** butonuna tıklayıp **`Download ZIP`** seçeneği ile projeyi bilgisayarınıza indirin ve bir klasöre çıkartın.
+   *(Eğer Git kullanıyorsanız: `git clone https://github.com/muffinweb/sahimedian-chrome-extension.git` komutuyla klonlayabilirsiniz.)*
 
-1. Tarayıcınızda yeni bir yer imi (bookmark) oluşturun.
-2. Yer iminin adını `Emlak Analiz` yapın.
-3. Adres / URL kısmına `javascript:` yazıp ardından `script.js` içeriğini yapıştırın.
-4. Sahibinden ilan sayfasındayken bu yer imine tıklayarak çalıştırın.
+2. **Chrome Uzantılar Sayfasını Açın:**
+   - Google Chrome tarayıcınızı açın.
+   - Adres çubuğuna `chrome://extensions` yazıp `Enter` tuşuna basın.
+   *(Alternatif: Sağ üstteki **Üç Nokta ➔ Diğer Araçlar ➔ Uzantılar** yolunu izleyin.)*
+
+3. **Geliştirici Modunu Aktif Edin:**
+   - Açılan sayfanın sağ üst köşesinde yer alan **"Geliştirici modu" (Developer mode)** anahtarını açık konuma getirin.
+
+4. **Uzantıyı Yükleyin:**
+   - Sol üstte beliren **"Paketlenmemiş öğe yükle" (Load unpacked)** butonuna tıklayın.
+   - Dosyalarını çıkarttığınız proje klasörünü (içinde `manifest.json` bulunan klasör) seçin.
+
+5. **Kullanmaya Başlayın:**
+   - Uzantı başarıyla yüklenecektir. Sahibinden.com üzerindeki herhangi bir gayrimenkul arama sonuç sayfasına girdiğinizde analiz arayüzü otomatik olarak hazır hale gelecektir.
 
 ---
 
 ## 📸 Ekran Görüntüsü
 
-_(Buraya oluşturduğun SweetAlert2 analiz kartının ve F/P gezgininin bir ekran görüntüsünü ekleyebilirsin)_
+<img width="1445" height="772" alt="Ekran Resmi 2026-07-25 20 14 08" src="https://github.com/user-attachments/assets/614e8bd0-005b-46e3-9f9a-0755629fe12e" />
 
-```text
-[Analiz Kartı Görseli]
-```
