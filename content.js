@@ -152,7 +152,8 @@
     rows.forEach((row) => {
       if (
         row.classList.contains("nativeAd") ||
-        row.classList.contains("searchResultsPromoSuper")
+        row.classList.contains("searchResultsPromoSuper") ||
+        row.classList.contains("searchResultsIgnored")
       )
         return;
 
